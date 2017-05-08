@@ -80,8 +80,8 @@ var chart_distribution = function(data) {
 
   context.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(0," + height2 + ")")
-      .call(xAxis2);
+      .attr("transform", "translate(0," + height2 + ")");
+      //.call(xAxis2); TICKS ON X AXIS, DEBUG
 
   context.append("rect")
         .attr("class", "window")
